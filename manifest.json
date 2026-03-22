@@ -1,0 +1,19 @@
+{
+  "name": "Interest Calculator",
+  "short_name": "Interest Calc",
+  "description": "Compound interest savings and home loan repayment calculator by Rodney Salmon",
+  "start_url": "/InterestCalculator/",
+  "scope": "/InterestCalculator/",
+  "display": "standalone",
+  "background_color": "#f4f3ee",
+  "theme_color": "#1b4d8e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "626x626",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
