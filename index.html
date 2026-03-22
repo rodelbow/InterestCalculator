@@ -76,6 +76,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Open Graph tags — controls iMessage, WhatsApp, Facebook link preview -->
+<meta property="og:title" content="Interest Calculator">
+<meta property="og:description" content="Calculate compound interest savings and home loan repayments. Free tool by Rodney Salmon.">
+<meta property="og:image" content="https://rodelbow.github.io/InterestCalculator/icon.png">
+<meta property="og:image:width" content="626">
+<meta property="og:image:height" content="626">
+<meta property="og:url" content="https://tinyurl.com/InterestSavings">
+<meta property="og:type" content="website">
+<!-- Twitter/X card — also used by some messaging apps -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Interest Calculator">
+<meta name="twitter:description" content="Calculate compound interest savings and home loan repayments. Free tool by Rodney Salmon.">
+<meta name="twitter:image" content="https://rodelbow.github.io/InterestCalculator/icon.png">
 <link rel="icon" type="image/png" href="data:image/png;base64,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">
 <link rel="icon" type="image/png" href="data:image/png;base64,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">
 <title>Interest Calculator</title>
@@ -273,44 +286,54 @@ footer{margin-top:1.5rem;border-top:1px solid var(--border2);background:var(--su
 </head>
 <body>
 
-<!-- ── Safari prompt banner ──────────────────────────────────────
-     Shown automatically when the file is opened in a restricted
-     viewer (e.g. iMessage Quick Look) where JavaScript is blocked.
-     Hidden immediately if the app initialises correctly in Safari.
+<!-- ── Open in Safari banner ─────────────────────────────────────
+     Shown by default (display:block). Hidden only after charts
+     successfully render. This ensures it always shows in any
+     restricted viewer (iMessage, Mail, Files Quick Look).
      ─────────────────────────────────────────────────────────────── -->
 <div id="safari-banner" style="
-  display:none;
+  display:block;
   position:fixed;top:0;left:0;right:0;z-index:9999;
   background:#1b4d8e;color:#fff;
-  padding:14px 20px;
-  font-family:-apple-system,'DM Sans',sans-serif;
-  font-size:14px;line-height:1.5;
+  padding:16px 20px 14px;
+  font-family:-apple-system,sans-serif;
+  font-size:14px;line-height:1.6;
   text-align:center;
-  box-shadow:0 2px 12px rgba(0,0,0,0.3);
+  box-shadow:0 2px 16px rgba(0,0,0,0.35);
 ">
-  <strong>For the best experience, open in Safari.</strong><br>
-  <span style="font-size:13px;opacity:0.9">Tap the <strong>⋯</strong> or share button at the top right, then choose <strong>Open in Safari</strong> — charts and calculations require a full browser.</span>
+  <div style="font-size:15px;font-weight:600;margin-bottom:4px">Open in Safari to use this calculator</div>
+  <div style="font-size:13px;opacity:0.92">Tap the <strong>share button (↗)</strong> → <strong>Save to Files</strong> → then open the <strong>Files app</strong> and tap the file to open it fully in Safari.</div>
 </div>
 
+<!-- Spacer so content isn't hidden behind the fixed banner -->
+<div id="safari-banner-spacer" style="height:80px"></div>
+
 <script>
-/* ── Restricted viewer detection ─────────────────────────────────
-   If Chart.js failed to load (blocked by Quick Look / restricted
-   WebKit) window.Chart will be undefined. Show the banner.
-   Also catches cases where JS runs but canvas rendering is blocked.
+/* ── Safari banner logic ─────────────────────────────────────────
+   Banner is visible by default.
+   We attempt to draw on a test canvas — if it works, Chart.js
+   and canvas are both available, so we hide the banner.
+   This fires before ciGo/hlGo/hlaGo so the app still initialises.
    ─────────────────────────────────────────────────────────────── */
 (function(){
-  function showBanner(){
-    var b=document.getElementById('safari-banner');
-    if(b){ b.style.display='block'; document.body.style.paddingTop='90px'; }
+  try {
+    if(typeof Chart === 'undefined') return; // Chart.js blocked — keep banner
+    var testCanvas = document.createElement('canvas');
+    testCanvas.width = 10; testCanvas.height = 10;
+    var ctx = testCanvas.getContext('2d');
+    if(!ctx) return; // canvas blocked — keep banner
+    // Try actually drawing something
+    ctx.fillRect(0,0,1,1);
+    var px = ctx.getImageData(0,0,1,1);
+    if(!px || !px.data) return; // pixel read blocked — keep banner
+    // All checks passed — hide banner
+    var b = document.getElementById('safari-banner');
+    var s = document.getElementById('safari-banner-spacer');
+    if(b) b.style.display='none';
+    if(s) s.style.display='none';
+  } catch(e) {
+    // Any error — keep banner visible
   }
-  // Check immediately if Chart.js loaded
-  if(typeof Chart==='undefined'){ showBanner(); return; }
-  // Secondary check: try creating a test canvas context
-  try{
-    var c=document.createElement('canvas');
-    var ctx=c.getContext('2d');
-    if(!ctx){ showBanner(); }
-  } catch(e){ showBanner(); }
 })();
 </script>
 
@@ -1431,17 +1454,29 @@ hlaGo();
     <strong style="color:#3a3a30">You should seek advice from a licensed financial adviser or
     mortgage broker before making any borrowing, investment, or repayment decisions.</strong>
   </div>
-  <div class="footer-copyright">© 2025 Rodney Salmon. All rights reserved.</div>
+  <div class="footer-copyright">© 2025 Rodney Salmon. All rights reserved. &nbsp;·&nbsp; <a href="https://tinyurl.com/InterestSavings" style="color:var(--faint);text-decoration:none">tinyurl.com/InterestSavings</a></div>
 </footer>
 
 <script>
-/* ── Hide safari banner on successful load ───────────────────────
-   ciGo/hlGo/hlaGo have run successfully — Chart.js is working.
-   Dismiss the banner if it was shown.
+/* ── Final check after full page load ────────────────────────────
+   ciGo/hlGo/hlaGo have now run. Do a final canvas check and hide
+   the banner + spacer if everything is working correctly.
    ─────────────────────────────────────────────────────────────── */
 (function(){
-  var b=document.getElementById('safari-banner');
-  if(b){ b.style.display='none'; document.body.style.paddingTop=''; }
+  try {
+    if(typeof Chart==='undefined') return;
+    var testCanvas=document.createElement('canvas');
+    testCanvas.width=10; testCanvas.height=10;
+    var ctx=testCanvas.getContext('2d');
+    if(!ctx) return;
+    ctx.fillRect(0,0,1,1);
+    var px=ctx.getImageData(0,0,1,1);
+    if(!px||!px.data) return;
+    var b=document.getElementById('safari-banner');
+    var s=document.getElementById('safari-banner-spacer');
+    if(b) b.style.display='none';
+    if(s) s.style.display='none';
+  } catch(e){}
 })();
 </script>
 
